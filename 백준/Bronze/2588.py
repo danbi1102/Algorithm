@@ -9,9 +9,9 @@ num2a = int(num2/100)  # 3
 num2b = int((num2-(num2a*100))/10)  # 8
 num2c = int(num2-(num2a*100+num2b*10))  # 5
 
-ans1 = int(num1*num2c)
-ans2 = int(num1*num2b)
-ans3 = int(num1*num2a)
+ans1 = int(num1*num2c) #출력1
+ans2 = int(num1*num2b) #출력2
+ans3 = int(num1*num2a) #출력3
 
 print(ans1, ans2, ans3, sep="\n")
-print(ans1+(10*ans2)+(100*ans3))
+print(ans1+(10*ans2)+(100*ans3)) #출력4
